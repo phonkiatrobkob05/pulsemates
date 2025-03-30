@@ -1,8 +1,15 @@
+import { Link } from "react-router";
+import Navbar from "../components/Navbar";
+import Menu from "../components/Menu";
+Navbar
 function Dashboard() {
   return (
     <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to the Dashboard!</p>
+      <Navbar/>
+      <section>
+        <img src="public/rayong.png" alt="" />
+      </section>
+      <Menu/>
     </div>
   );
 }
