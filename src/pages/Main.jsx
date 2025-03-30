@@ -6,7 +6,7 @@ function Main() {
       {/* Navbar */}
       <Navbar />
       {/* Intro to Pulsemate Section */}
-      <section className="main-content flex flex-col h-full bg-gray-100">
+      <section className="main-content flex flex-col h-full bg-gray-500">
         <div className="flex flex-col pt-10 p-8">
           <div className="flex justify-center items-center">
             <img src="./sinocarebpm.png" alt="sinocarebpm" className="w-2/3" />
