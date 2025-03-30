@@ -62,7 +62,7 @@ function Main() {
       <footer className="bg-blue-300">
         <div className="flex">
           <h1>hello</h1>
-          <img src="/pngtestpulse.svg" alt="" />
+         
         </div>
       </footer>
     </div>
