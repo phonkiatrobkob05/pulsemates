@@ -7,7 +7,7 @@ function Dashboard() {
     <div>
       <Navbar/>
       <section>
-        <img src="public/rayong.png" alt="" />
+        <img src="/rayong.png" alt="" />
       </section>
       <Menu/>
     </div>
