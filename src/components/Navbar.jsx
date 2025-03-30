@@ -6,7 +6,7 @@ function Navbar() {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 left-0 w-full bg-white shadow-md p-4 z-50">
+        <nav className="sticky top-0 left-0 bg-white shadow-md p-4 z-50">
             <div className="flex justify-between items-center bg-white p-4 font-medium">
                 <img src="/Pulsematelogo 1.svg" alt="Logo" className="w-3xs" />
                 
