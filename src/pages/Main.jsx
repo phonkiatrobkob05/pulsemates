@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Card1 from "../components/Cards";
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Link, Element } from 'react-scroll';
 function Main() {
   return (
@@ -21,9 +22,9 @@ function Main() {
             </span> Next-Gen <br /> Smart Health Strong Heart.</h1>
             <p className="text-lg">PulseMate คือเครื่องวัดความดันอัจฉริยะที่เปรียบเสมือนเพื่อนรู้ใจของผู้ใช้งาน เพราะมีการจัดเก็บข้อมูลค่าวัดความดันบนระบบ อีกทั้งยังสามารถดูค่าวัดความดันได้บนเว็ปไซต์แบบเรียลไทม์เพื่อแก้ปัญหาการหลงลืมค่าวัดความดันและของผู้สูงอายุและช่วยให้แพทย์สามารถ วินิจฉัยโรคได้แม่นยำมากยิ่งขึ้น</p>
             <div className="flex justify-center mx-auto drop-shadow-sm rounded-full w-[239px] bg-[linear-gradient(-80deg,#007299,#56E0E0)] px-[18px] py-[13px] my-auto">
-              <Link to="/Dashboard" className="text-[20px] text-[#F4FEFF] font-semibold">
+              <NavLink to="/Login" className="text-[20px] text-[#F4FEFF] font-semibold">
                 Get Started
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>

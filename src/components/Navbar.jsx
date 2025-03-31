@@ -21,16 +21,15 @@ function Navbar() {
                 <img src="/Pulsematelogo 1.svg" alt="Logo" className="w-3xs" />
 
                 {/* Desktop Navigation Links */}
-                <ul className="hidden md:flex gap-6 text-lg pr-10">
-                    <li><ScrollLink to="/dashboard/profile" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</ScrollLink></li>
-                    <li><ScrollLink to="/dashboard/services" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</ScrollLink></li>
-                    <li><ScrollLink to="/dashboard/aboutus" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</ScrollLink></li>
-                    <li><NavLink to="/login" smooth={true} duration={500} offset={-80} className="cursor-pointer">
-                        Login & Register
-                    </NavLink>
-                    </li>
+                <ul className="flex gap-8 hidden md:flex">
+                <li><ScrollLink to="home" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</ScrollLink></li>
+                <li><ScrollLink to="services" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</ScrollLink></li>
+                <li><ScrollLink to="aboutus" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</ScrollLink></li>
+                <li><Link to="/Login" smooth={true} duration={500} offset={-80} className="cursor-pointer">
+                    Login & Register
+                </Link>
+                </li>
                 </ul>
-
                 {/* Hamburger Menu for Mobile */}
                 <div className="md:hidden">
                     <Hamburger toggled={isOpen} toggle={setOpen} duration={0.5} easing="ease-in-out" />
