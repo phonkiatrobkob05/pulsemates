@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Fade as Hamburger } from "hamburger-react";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -22,12 +22,12 @@ function Navbar() {
 
                 {/* Desktop Navigation Links */}
                 <ul className="hidden md:flex gap-6 text-lg pr-10">
-                    <li><ScrollLink to="home" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</ScrollLink></li>
-                    <li><ScrollLink to="services" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</ScrollLink></li>
-                    <li><ScrollLink to="aboutus" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</ScrollLink></li>
-                    <li><Link to="/Login" smooth={true} duration={500} offset={-80} className="cursor-pointer">
+                    <li><NavLink to="/" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</NavLink></li>
+                    <li><NavLink to="/" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</NavLink></li>
+                    <li><NavLink to="/" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</NavLink></li>
+                    <li><NavLink to="/Login" smooth={true} duration={500} offset={-80} className="cursor-pointer">
                         Login & Register
-                    </Link>
+                    </NavLink>
                     </li>
                 </ul>
 
