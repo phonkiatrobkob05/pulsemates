@@ -4,7 +4,7 @@ function Card1({ title, description, text }) {
         <div className="size-fit flex flex-col gap-[36px] items-center justify-center">
           <div className="bg-(--bg-our-values) w-[200px] h-[10px] rounded-[12px] flex items-center justify-center">
             <p
-              className={`text-white w-[220px] h-10 flex justify-center items-center text-[${text}px] font-[Alatsi] font-normal text-center bg-blue-400 rounded-lg p-1`}
+              className={`text-white w-[220px] h-14 flex justify-center items-center text-[${text}px] font-[Alatsi] font-normal text-center bg-blue-400 rounded-lg p-1`}
             >
               {title}
             </p>

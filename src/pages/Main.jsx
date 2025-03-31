@@ -38,17 +38,17 @@ function Main() {
           <Card1
             title="Accessibility & Convenience"
             description="Leveraging AI and machine learning to provide real-time, accurate health insights."
-            text="32"
+            text="22"
           />
           <Card1
             title="Innovation & Intelligence"
             description="Leveraging AI and machine learning to provide real-time, accurate health insights."
-            text="32"
+            text="22"
           />
           <Card1
             title="Reliability & Accuracy"
             description="Leveraging AI and machine learning to provide real-time, accurate health insights."
-            text="32"
+            text="22"
           />
         </div>
 
