@@ -22,9 +22,9 @@ function Navbar() {
 
                 {/* Desktop Navigation Links */}
                 <ul className="hidden md:flex gap-6 text-lg pr-10">
-                    <li><ScrollLink to="#home" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</ScrollLink></li>
-                    <li><ScrollLink to="#services" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</ScrollLink></li>
-                    <li><ScrollLink to="#aboutus" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</ScrollLink></li>
+                    <li><ScrollLink to="/dashboard/profile" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Home</ScrollLink></li>
+                    <li><ScrollLink to="/dashboard/services" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">Services</ScrollLink></li>
+                    <li><ScrollLink to="/dashboard/aboutus" smooth={true} duration={500} offset={-80} className="hover:text-blue-500 transition cursor-pointer">About Us</ScrollLink></li>
                     <li><NavLink to="/login" smooth={true} duration={500} offset={-80} className="cursor-pointer">
                         Login & Register
                     </NavLink>
