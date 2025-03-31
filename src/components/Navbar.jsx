@@ -41,10 +41,10 @@ function Navbar() {
                 className={`absolute top-full left-0 w-full bg-white flex flex-col gap-4 p-4 shadow-md transition-all duration-500 ease-in-out
                 ${isOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}
             >
-                <li><Link to="home" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Home</Link></li>
-                <li><Link to="services" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Services</Link></li>
-                <li><Link to="aboutus" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>About Us</Link></li>
-                <li><Link to="reglog" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Register / Login</Link></li>
+                <li><ScrollLink to="home" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Home</ScrollLink></li>
+                <li><ScrollLink to="services" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Services</ScrollLink></li>
+                <li><ScrollLink to="aboutus" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>About Us</ScrollLink></li>
+                <li><NavLink to="/Login" smooth={true} duration={500} className="block py-2 text-center hover:text-blue-500 transition cursor-pointer" onClick={() => setOpen(false)}>Register / Login</NavLink></li>
             </ul>
         </nav>
     );
