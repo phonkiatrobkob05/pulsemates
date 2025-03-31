@@ -33,7 +33,7 @@ function Main() {
       {/* Our value Section */}
       <Element name="section2">
 
-      <section className="flex flex-col h-full bg-gray-100 pt-12">
+      <section className="flex flex-col h-full bg-white pt-12">
         <h1 className="font-[Amaranth] flex justify-center text-3xl md:text-4xl py-8">Our Values</h1>
         <div className="flex flex-wrap justify-center items-center gap-16 mt-2 py-4">
           <Card1
@@ -56,7 +56,7 @@ function Main() {
       </section>
       </Element>
       {/* Services */}
-      <section id="services" className="flex flex-col bg-gray-100 pt-12 justify-center items-center font-[Amaranth] text-3xl md:text-4xl py-8">
+      <section id="services" className="flex flex-col bg-white pt-12 justify-center items-center font-[Amaranth] text-3xl md:text-4xl py-8">
         <h1>Services</h1>
         <div className="flex flex-col sm:flex-row">
           <img src="/pulsemate_bp.png" alt="PulsemateBP" className="sm:w-1/2" />
@@ -64,7 +64,7 @@ function Main() {
         </div>
       </section>
       {/* Aboutus */}
-      <section id="aboutus" className="flex flex-col bg-gray-100 pt-12 font-[Amaranth] gap-8 p-8">
+      <section id="aboutus" className="flex flex-col bg-white pt-12 font-[Amaranth] gap-8 p-8">
         <div className="flex flex-col justify-center items-center text-center gap-4">
           <h1 className="text-2xl md:text-4xl">About Us</h1>
           <h1>Welcome to Pulsemate,<br />Your Personalized Health Mate.</h1>
